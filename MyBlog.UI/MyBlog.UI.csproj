@@ -126,6 +126,8 @@
     <Compile Include="Areas\Author\Models\DTO\AuthorArticleDTO.cs" />
     <Compile Include="Areas\Author\Models\VM\AuthorArticleVM.cs" />
     <Compile Include="Areas\Member\Controllers\MemberArticleController.cs" />
+    <Compile Include="Areas\Member\Models\VM\MemberArticleCommentVM.cs" />
+    <Compile Include="Areas\Member\Models\VM\MemberCommentVM.cs" />
     <Compile Include="Controllers\BaseController.cs" />
     <Compile Include="Areas\Admin\Controllers\CategoryController.cs" />
     <Compile Include="Areas\Admin\Controllers\HomeController.cs" />
@@ -194,7 +196,6 @@
     <Folder Include="Areas\Admin\Views\Account\" />
     <Folder Include="Areas\Admin\Views\Base\" />
     <Folder Include="Areas\Author\Views\AuthorBase\" />
-    <Folder Include="Areas\Member\Models\" />
     <Folder Include="Content\image\" />
   </ItemGroup>
   <ItemGroup>
